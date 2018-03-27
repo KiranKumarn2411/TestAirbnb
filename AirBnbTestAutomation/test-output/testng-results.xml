@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15155" started-at="2018-03-27T05:34:47Z" finished-at="2018-03-27T05:35:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15155" started-at="2018-03-27T05:34:47Z" finished-at="2018-03-27T05:35:02Z">
+      <class name="airbnb.applyFilterTest.SearchCityWithPriceFilter">
+        <test-method status="PASS" signature="setup()[pri:0, instance:airbnb.applyFilterTest.SearchCityWithPriceFilter@59906517]" name="setup" is-config="true" duration-ms="12896" started-at="2018-03-27T05:34:34Z" finished-at="2018-03-27T05:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchCityHomeBasedOnPrice(int)[pri:0, instance:airbnb.applyFilterTest.SearchCityWithPriceFilter@59906517]" name="searchCityHomeBasedOnPrice" duration-ms="15093" started-at="2018-03-27T05:34:47Z" data-provider="PriceValue" finished-at="2018-03-27T05:35:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCityHomeBasedOnPrice -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:airbnb.applyFilterTest.SearchCityWithPriceFilter@59906517]" name="closeBrowser" is-config="true" duration-ms="876" started-at="2018-03-27T05:35:02Z" finished-at="2018-03-27T05:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- airbnb.applyFilterTest.SearchCityWithPriceFilter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
